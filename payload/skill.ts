@@ -4,136 +4,93 @@ const programmingLanguages: ISkill.Skill = {
   category: 'Programming Languages',
   items: [
     {
-      title: 'C',
+      title: 'Typescript',
       level: 3,
     },
     {
-      title: 'Shell Scripting',
+      title: 'PHP',
       level: 3,
+    },
+    {
+      title: 'Dart',
+      level: 2,
+    },
+    {
+      title: 'Java',
+      level: 1,
+    },
+    {
+      title: 'Kotlin',
+      level: 1,
     },
     {
       title: 'Python',
-      level: 3,
-    },
-    {
-      title: 'Perl',
-      level: 2,
+      level: 1,
     },
     {
       title: 'Golang',
-      level: 2,
-    },
-    {
-      title: 'Rust',
       level: 1,
     },
   ],
 };
 
-const kernelDevelopment: ISkill.Skill = {
-  category: 'Kernel Development',
+const frameworkAndLibraries: ISkill.Skill = {
+  category: 'Fameworks & Libraries',
   items: [
     {
-      title: 'Kernel Programming',
+      title: 'Node.js',
       level: 3,
     },
     {
-      title: 'GNU Debugger',
+      title: 'Express.js',
       level: 3,
     },
     {
-      title: 'Memory Management',
+      title: 'Nest.js',
+      level: 3,
+    },
+    {
+      title: 'CodeIgniter',
+      level: 3,
+    },
+    {
+      title: 'GnuBoard',
       level: 2,
     },
     {
-      title: 'System Call Interface',
+      title: 'Vue.js',
+      level: 2,
+    },
+    {
+      title: 'Flutter',
       level: 2,
     },
   ],
 };
 
-const virtualization: ISkill.Skill = {
-  category: 'Virtualization',
+const infrastructureAndDatabases: ISkill.Skill = {
+  category: 'Infrastructures & Databases',
   items: [
+    {
+      title: 'Docker Swarm',
+    },
     {
       title: 'Docker',
-      level: 3,
     },
     {
-      title: 'KVM',
-      level: 3,
+      title: 'Nginx',
     },
     {
-      title: 'Xen',
-      level: 2,
+      title: 'BullMQ',
     },
     {
-      title: 'VirtualBox',
-      level: 2,
+      title: 'PostgreSQL',
     },
     {
-      title: 'VMware ESXi',
-      level: 1,
-    },
-  ],
-};
-
-const automation: ISkill.Skill = {
-  category: 'Automation',
-  items: [
-    {
-      title: 'Ansible',
-      level: 3,
+      title: 'Redis',
     },
     {
-      title: 'Puppet',
-      level: 3,
-    },
-    {
-      title: 'Chef',
-      level: 2,
-    },
-    {
-      title: 'Jenkins',
-      level: 2,
-    },
-    {
-      title: 'CI/CD Pipelines',
-      level: 1,
-    },
-    {
-      title: 'Infrastructure as Code',
-      level: 1,
-    },
-  ],
-};
-
-const networkSecurity: ISkill.Skill = {
-  category: 'Network Security',
-  items: [
-    {
-      title: 'iptables',
-      level: 3,
-    },
-    {
-      title: 'OpenSSH',
-      level: 3,
-    },
-    {
-      title: 'OpenSSL',
-      level: 2,
-    },
-    {
-      title: 'NACLs',
-      level: 2,
-    },
-    {
-      title: 'VPN Technologies',
-      level: 2,
-    },
-    {
-      title: 'Intrusion Detection',
-      level: 1,
+      title: 'AWS',
     },
   ],
 };
@@ -142,36 +99,47 @@ const misc: ISkill.Skill = {
   category: 'Misc',
   items: [
     {
-      title: 'Coffee Brewing',
+      title: 'Ubuntu',
     },
     {
-      title: "Rubik's Cube Solving",
+      title: 'Browserless & Puppeteer',
     },
     {
-      title: 'Table Tennis',
+      title: 'Stripe',
     },
     {
-      title: 'Guitar Playing',
+      title: 'Nice Payment',
     },
     {
-      title: 'Joke Telling',
+      title: 'Elastic Search APM',
     },
     {
-      title: 'Duct Tape Crafting',
+      title: 'VS Code',
+    },
+    {
+      title: 'Cloudflare',
+    },
+    {
+      title: "Let's Encrypt",
+    },
+    {
+      title: 'Github Action',
+    },
+    {
+      title: 'Home Server',
+    },
+    {
+      title: 'Oracle Cloud',
+    },
+    {
+      title: 'Contabo',
     },
   ],
 };
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [
-    programmingLanguages,
-    kernelDevelopment,
-    virtualization,
-    automation,
-    networkSecurity,
-    misc,
-  ],
+  skills: [programmingLanguages, frameworkAndLibraries, infrastructureAndDatabases, misc],
   tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
 };
 
