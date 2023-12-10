@@ -1,15 +1,15 @@
 import { faEnvelope, faPhone, faPen } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
-import image from '../asset/sample_tux.png';
+import profileImage from '../asset/_picture.png';
 
 const profile: IProfile.Payload = {
   disable: false,
 
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
-  image,
+  image: profileImage,
   name: {
     title: '허윤',
     small: '(Glenn)',
@@ -35,7 +35,7 @@ const profile: IProfile.Payload = {
     },
   ],
   notice: {
-    title: '준비중입니다.',
+    title: '이메일로 연락 부탁드립니다.',
     icon: faBell,
   },
 };

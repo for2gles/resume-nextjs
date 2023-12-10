@@ -8,27 +8,23 @@ const programmingLanguages: ISkill.Skill = {
       level: 3,
     },
     {
+      title: 'Javascript',
+      level: 3,
+    },
+    {
       title: 'PHP',
       level: 3,
     },
     {
-      title: 'Dart',
+      title: 'HTML/CSS',
       level: 2,
     },
     {
+      title: 'Dart',
+      level: 1,
+    },
+    {
       title: 'Java',
-      level: 1,
-    },
-    {
-      title: 'Kotlin',
-      level: 1,
-    },
-    {
-      title: 'Python',
-      level: 1,
-    },
-    {
-      title: 'Golang',
       level: 1,
     },
   ],
@@ -63,7 +59,11 @@ const frameworkAndLibraries: ISkill.Skill = {
     },
     {
       title: 'Flutter',
-      level: 2,
+      level: 1,
+    },
+    {
+      title: 'Spring',
+      level: 1,
     },
   ],
 };
@@ -99,6 +99,9 @@ const misc: ISkill.Skill = {
   category: 'Misc',
   items: [
     {
+      title: 'English (자유로운 업무소통 가능)',
+    },
+    {
       title: 'Ubuntu',
     },
     {
@@ -120,6 +123,9 @@ const misc: ISkill.Skill = {
       title: 'Cloudflare',
     },
     {
+      title: 'Hubspot',
+    },
+    {
       title: "Let's Encrypt",
     },
     {
@@ -130,9 +136,6 @@ const misc: ISkill.Skill = {
     },
     {
       title: 'Oracle Cloud',
-    },
-    {
-      title: 'Contabo',
     },
   ],
 };
