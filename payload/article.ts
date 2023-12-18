@@ -4,11 +4,11 @@ const article: IArticle.Payload = {
   disable: false,
 
   list: [
-    {
-      content:
-        '(2022.12.25) 개발자 네카라쿠배당토 중 한곳 면접 후기, 느낀점(feat. 함수형프로그래밍)',
-      href: 'https://blog.ewq.kr/56',
-    },
+    // {
+    //   content:
+    //     '(2022.12.25) 개발자 네카라쿠배당토 중 한곳 면접 후기, 느낀점(feat. 함수형프로그래밍)',
+    //   href: 'https://blog.ewq.kr/56',
+    // },
     {
       content: 'NestJS + Websocket으로 채팅만들기 시리즈',
       descriptions: [
