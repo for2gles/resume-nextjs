@@ -20,6 +20,7 @@ import { Article } from '../component/article';
 
 function Yosume() {
   ReactGA.initialize('G-MD6YSP6DYL');
+  ReactGA.send('pageview');
   return (
     <>
       <NextSeo {...Payload._global.seo} />
