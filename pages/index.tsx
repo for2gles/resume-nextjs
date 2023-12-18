@@ -3,6 +3,7 @@ import { Container } from 'reactstrap';
 
 import Head from 'next/head';
 import { NextSeo } from 'next-seo';
+import ReactGA from 'react-ga4';
 import { Education } from '../component/education';
 // import { Etc } from '../component/etc';
 import { Experience } from '../component/experience';
@@ -17,6 +18,7 @@ import { Style } from '../component/common/Style';
 import Payload from '../payload';
 import { Article } from '../component/article';
 
+ReactGA.initialize('GTM-587ZX8DB');
 function Yosume() {
   return (
     <>
