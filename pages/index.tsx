@@ -18,7 +18,7 @@ import { Style } from '../component/common/Style';
 import Payload from '../payload';
 import { Article } from '../component/article';
 
-ReactGA.initialize('GTM-587ZX8DB');
+ReactGA.initialize('G-MD6YSP6DYL');
 function Yosume() {
   return (
     <>
