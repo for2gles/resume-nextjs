@@ -1,12 +1,12 @@
 import { PropsWithChildren } from 'react';
-import { IOpenSource } from './IOpenSource';
+import { IPersonalProject } from './IPersonalProject';
 import { EmptyRowCol } from '../common';
 import { CommonRows } from '../common/CommonRow';
 import { IRow } from '../common/IRow';
 
 export default function OpenSourceRow({
   payload,
-}: PropsWithChildren<{ payload: IOpenSource.Payload }>) {
+}: PropsWithChildren<{ payload: IPersonalProject.Payload }>) {
   return (
     <EmptyRowCol>
       {payload.list.map((item, index) => (
@@ -16,7 +16,7 @@ export default function OpenSourceRow({
   );
 }
 
-function serialize(item: IOpenSource.Item): IRow.Payload {
+function serialize(item: IPersonalProject.Item): IRow.Payload {
   return {
     left: {
       title: item.title,

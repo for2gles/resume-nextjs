@@ -1,12 +1,12 @@
 import { PropsWithChildren } from 'react';
-import { IOpenSource } from './IOpenSource';
-import OpenSourceRow from './row';
+import { IPersonalProject } from './IPersonalProject';
+import PersonalProjectRow from './row';
 import { CommonSection } from '../common/CommonSection';
 import { PreProcessingComponent } from '../common/PreProcessingComponent';
 
-type Payload = IOpenSource.Payload;
+type Payload = IPersonalProject.Payload;
 
-export const OpenSource = {
+export const PersonalProject = {
   Component: ({ payload }: PropsWithChildren<{ payload: Payload }>) => {
     return PreProcessingComponent<Payload>({
       payload,
@@ -17,8 +17,8 @@ export const OpenSource = {
 
 function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
   return (
-    <CommonSection title="OPEN SOURCE">
-      <OpenSourceRow payload={payload} />
+    <CommonSection title="PERSONAL PROJECT">
+      <PersonalProjectRow payload={payload} />
     </CommonSection>
   );
 }
