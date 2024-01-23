@@ -4,11 +4,43 @@ const article: IArticle.Payload = {
   disable: false,
 
   list: [
-    // {
-    //   content:
-    //     '(2022.12.25) 개발자 네카라쿠배당토 중 한곳 면접 후기, 느낀점(feat. 함수형프로그래밍)',
-    //   href: 'https://blog.ewq.kr/56',
-    // },
+    {
+      content: '홈서버 구축하기 시리즈',
+      descriptions: [
+        {
+          content: '[1] 홈서버를 구축 한 이유',
+          href: 'https://blog.ewq.kr/69',
+        },
+        {
+          content: '[2] 제품 선택 및 설치',
+          href: 'https://blog.ewq.kr/70',
+        },
+        {
+          content: '[3] 내부망 고정아이피 설정 및 포트포워딩 그리고 DDNS',
+          href: 'https://blog.ewq.kr/71',
+        },
+        {
+          content: '[4] 클라우드플레어를 활용하여 내 서버 아이피 숨기기(feat. HTTPS)',
+          href: 'https://blog.ewq.kr/72',
+        },
+        {
+          content: '[5] 클라우드를 사용해 게이트웨이 구축(feat.vpn)',
+          href: 'https://blog.ewq.kr/73',
+        },
+        {
+          content: '[6] Docker 및 Docker Swarm 설정하기',
+          href: 'https://blog.ewq.kr/74',
+        },
+        {
+          content: '[7] 공유 스토리지를 만들어보자(feat. 시놀로지)',
+          href: 'https://blog.ewq.kr/75',
+        },
+        {
+          content: '[8] 완성된 내 홈서버 네트워크 구성도 및 홈서버 배치 모습 그리고 총 비용',
+          href: 'https://blog.ewq.kr/76',
+        },
+      ],
+    },
     {
       content: 'NestJS + Websocket으로 채팅만들기 시리즈',
       descriptions: [
@@ -27,35 +59,6 @@ const article: IArticle.Payload = {
         {
           content: '(2021.07.26) NestJS + Websocket으로 채팅만들기 #4 (feat. 채팅 구색갖추기)',
           href: 'https://blog.ewq.kr/42',
-        },
-      ],
-    },
-    {
-      content: '(2021.07.14) 보안에 대한 오늘의 고찰(GraphQL, 파일다운로드)',
-      href: 'https://blog.ewq.kr/35',
-    },
-    {
-      content: '비전공, 고졸 그리고 웹개발자 시리즈 - 내가 개발자가 된 이야기',
-      descriptions: [
-        {
-          content: '(2020.03.26) 비전공, 고졸 그리고 웹개발자1',
-          href: 'https://blog.ewq.kr/30',
-        },
-        {
-          content: '(2020.03.27) 비전공, 고졸 그리고 웹개발자2',
-          href: 'https://blog.ewq.kr/31',
-        },
-        {
-          content: '(2020.03.28) 비전공, 고졸 그리고 웹개발자3',
-          href: 'https://blog.ewq.kr/32',
-        },
-        {
-          content: '(2020.03.29) 비전공, 고졸 그리고 웹개발자4',
-          href: 'https://blog.ewq.kr/33',
-        },
-        {
-          content: '(2020.03.30) 비전공, 고졸 그리고 웹개발자5',
-          href: 'https://blog.ewq.kr/34',
         },
       ],
     },

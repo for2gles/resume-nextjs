@@ -30,6 +30,10 @@ const project: IProject.Payload = {
               content:
                 'CPU, Memory, Network 사용량 모니터링 시스템 구축 (Elastic Search MetricBeat)',
             },
+            {
+              content: 'Puppeteer 최적화 작업 기록 (feat. Browserless)',
+              href: 'https://for2gles.tistory.com/78',
+            },
           ],
         },
         {
