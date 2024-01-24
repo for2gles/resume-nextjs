@@ -32,7 +32,7 @@ const project: IProject.Payload = {
             },
             {
               content: 'Puppeteer 최적화 작업 기록 (feat. Browserless)',
-              href: 'https://for2gles.tistory.com/78',
+              href: 'https://blog.ewq.kr/78',
             },
           ],
         },
