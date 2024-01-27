@@ -9,6 +9,18 @@ const project: IProject.Payload = {
       where: 'Adriel',
       descriptions: [
         {
+          content: '2024년 Redis 최적화',
+          descriptions: [
+            {
+              content: '레디스 CPU 10%, 메모리 사용률, 네트워크 사용률 80% 개선',
+            },
+            {
+              content: '레디스 최적화 기록',
+              href: 'https://blog.ewq.kr/79',
+            },
+          ],
+        },
+        {
           content: '2023년 AI를 활용하여 마케터에 광고 인사이트 제공 기능 구현중',
         },
         {
