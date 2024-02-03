@@ -21,15 +21,12 @@ const project: IProject.Payload = {
           ],
         },
         {
-          content: '2023년 AI를 활용하여 마케터에 광고 인사이트 제공 기능 구현중',
-        },
-        {
           content: '2023년 AdgenAI 배너 생성로직 최적화 작업',
           weight: 'MEDIUM',
           descriptions: [
             {
               content:
-                '에러가 발생하는 근본적인 원인을 분석하고, CPU 사용량이 많은 Puppeteer 로직을 Browserless를 활용하여 서버를 분리함을 통해 최적화 및 성공률 개선',
+                '에러가 발생하는 근본적인 원인을 분석, CPU 사용량이 많은 Puppeteer 로직을 Browserless를 활용하여 서버를 분리함을 통해 최적화 및 성공률 개선',
             },
             { content: '별도의 Dedicated 서버를 구축하고 동시 작업량 제어' },
             { content: '배너제작 에러율 50% => 1%로 감소' },
@@ -49,9 +46,6 @@ const project: IProject.Payload = {
           ],
         },
         {
-          content: '2023년 내부 데이터 헙스팟과 연동',
-        },
-        {
           content: '2023년 페이먼트 로직 리팩토링 - Stripe, Nicepay',
           weight: 'MEDIUM',
           descriptions: [
@@ -67,14 +61,20 @@ const project: IProject.Payload = {
           ],
         },
         {
-          content: '2023년 대시보드 데이터 불러오는 라우터 로직 Sync > Async 전환',
+          content: '2023년 대시보드 핵심 로직 MQ시스템 도입',
           weight: 'MEDIUM',
           descriptions: [
             {
               content:
-                '기존 대시보드에서 데이터를 불러 올 때 발생하는 Timeout 및 동시 작업량 제어를 위해 Sync > Async로 전환',
+                '기존 대시보드에서 데이터를 불러 올 때 발생하는 Timeout 및 동시 최대 작업량 제어를 위해 MQ시스템 도입',
             },
-            { content: '순간적인 트래픽이 몰렸을 때 서버 리스크 감소' },
+            {
+              content:
+                '서버 리소스 사용량이 예측 가능하도록 전환된 덕분에, 순간적인 트래픽이 몰렸을 때 서버 리스크 감소',
+            },
+            {
+              content: '브라우저에서 볼 수 있던 Cloudflare Timeout, Request 누락 이슈 해결',
+            },
           ],
         },
         {
@@ -96,7 +96,7 @@ const project: IProject.Payload = {
           descriptions: [
             {
               content:
-                '레거시 코드를 분석중 CPU, memory, duration이 상당한 Bottle neck을 발견. BullMQ를 활용하여 Async 로 처리하도록 변경 및 서버분리작업을 통해 안정성 개선',
+                '레거시 코드를 분석중 CPU, memory, duration이 상당한 Bottle neck을 발견. 비동기적으로 처리하도록 BullMQ를 도입 및 서버분리작업을 통해 안정성 개선',
             },
             {
               content:
@@ -105,20 +105,14 @@ const project: IProject.Payload = {
           ],
         },
         {
-          content: '2022년 NCP > AWS 마이그레이션',
-        },
-        {
           content: '2022년 대시보드 로직 리팩토링',
           weight: 'MEDIUM',
           descriptions: [
             {
-              content: 'Javascript -> Typescript',
+              content: 'Javascript -> Typescript 전환',
             },
-            { content: '유지보수하기 힘든 Recursive 로직 개선' },
+            { content: '유지보수하기 힘들었던 Recursive 로직 개선' },
           ],
-        },
-        {
-          content: '2022년 데이터베이스 파티셔닝을 통해 퍼포먼스 향상',
         },
         {
           content: '2022년 Data Source 통합 데이터 축적 시스템 구축',
@@ -130,7 +124,9 @@ const project: IProject.Payload = {
             },
             {
               content:
-                '기존, 유저가 요청할 때 마다 데이터를 축적하던 시스템을 "유저 요청 이전에 우선적으로 축적"하는 시스템으로 변경함을 통해 데이터 로딩에 1분 넘게 소요될 수 있었던 작업을 1초 이내로 단축시켜 유저 경험 개선하고, 예상가능한 요청량으로 개선함을 통해 Rate limit 리스크 감소',
+                '축적시스템 Flow를 개편하여, 유저의 데이터 로딩속도를 최대 98%이상 개선하였고, 예측가능한 축적시스템을 구축하여 유지보수에 용이해짐',
+              // content:
+              //   '기존, 유저가 요청할 때 마다 데이터를 축적하던 시스템을 "유저 요청 이전에 우선적으로 축적"하는 시스템으로 변경함을 통해 데이터 로딩에 1분 넘게 소요될 수 있었던 작업을 1초 이내로 단축시켜 유저 경험 개선하고, 예상가능한 요청량으로 개선함을 통해 Rate limit 리스크 감소',
             },
           ],
         },

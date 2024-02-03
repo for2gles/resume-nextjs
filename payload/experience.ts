@@ -12,7 +12,7 @@ const experience: IExperience.Payload = {
         '광고 데이터 대시보드와 AdOps(Advertisement + Operation) 플랫폼 스타트업 (50~70명, BE팀 8~10명)',
         '아드리엘 백엔드, AdgenAI 백엔드 개발 및 유지보수',
         'BO 페이지 개발 및 유지보수',
-        'NCloud > AWS 이전, 용도와 목적에 맞게 다양한 클라우드의 인프라 테스트 및 도입',
+        'NCP > AWS 이전, 용도와 목적에 맞게 다양한 클라우드의 인프라 테스트 및 도입',
       ],
       skillKeywords: [
         'Node.js',
