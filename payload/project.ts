@@ -137,43 +137,6 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: 'CICCommunity',
-      startedAt: '2021-01',
-      endedAt: '2021-07',
-      where: 'RS Team',
-      descriptions: [
-        {
-          content: '포럼 및 일반 게시판들이 포함된 커뮤니티 사이트',
-        },
-        {
-          content: 'PHP + CodeIgniter + CIBoard 를 활용하여 제작',
-        },
-        {
-          content: 'AWS EC2 / RDS 활용',
-        },
-      ],
-    },
-    {
-      title: 'Smtech - 결제시스템 구축',
-      startedAt: '2021-01',
-      endedAt: '2021-07',
-      where: 'RS Team',
-      descriptions: [
-        {
-          content: '비회원 쇼핑몰 기능 추가 작업',
-        },
-        {
-          content: 'PHP + CodeIgniter + IamPort + Inicis 연동작업',
-        },
-        {
-          content: 'Inicis 직접 계약대행 및 IamPort 연동',
-        },
-        {
-          content: '관리자(주문관리, 배송관리)+유저(상품목록, 상품상세, 결제) 직접 구현',
-        },
-      ],
-    },
-    {
       title: 'RSTeam CMS',
       startedAt: '2021-01',
       endedAt: '2021-07',
@@ -183,84 +146,33 @@ const project: IProject.Payload = {
           content: 'RS Team SI 납품용 자체적인 CMS 구현',
         },
         {
-          content: '백엔드 프로젝트를 담당하였고, Nestjs + GraphQL 를 활용하여 제작',
+          content: '백엔드 프로젝트 리딩 담당, NestJS 도입',
         },
       ],
     },
     {
-      title: 'InNest - Simulator',
-      startedAt: '2020-10',
-      endedAt: '2021-01',
-      where: 'RS Team',
-      descriptions: [
-        {
-          content:
-            '가상 환경을 구성하여 가상 센서등 온라인에 생성하여 작동시키고, 주기적으로 센싱값을 관제서버로 전송하는 시스템',
-        },
-        {
-          content: '공공데이터 API를 활용하여 가상환경 조성',
-        },
-        {
-          content:
-            '데이터베이스 요청량이 많아 속도가 느려지는 증상이 발생하여, 중복되는 요청을 최소화 하는 최적화를 통해 개선',
-        },
-      ],
-    },
-    {
-      title: 'Percommunity',
-      startedAt: '2020-08',
-      endedAt: '2020-10',
-      where: 'RS Team',
-      descriptions: [
-        {
-          content:
-            '게시판에 광고 미션을 등록하고, 유저가 미션 수행후 인증을 하면 관리자가 보상을 주는 사이트.',
-        },
-        {
-          content: 'PHP + CodeIgniter3 + CIBoard(CMS) 를 활용하여 제작',
-        },
-      ],
-    },
-    {
-      title: 'Cindymap',
-      startedAt: '2020-05',
-      endedAt: '2020-08',
-      where: 'RS Team',
-      descriptions: [
-        {
-          content: '마사지 예약 중계 사이트, 이벤트, 포인트샵',
-        },
-        {
-          content: 'PHP + CodeIgniter3 를 활용하여 제작',
-        },
-        {
-          content:
-            '대규모 테스트와 Query 튜닝작업을 통해 10만개 이상 데이터를 보유한 테이블들을 Join 하여 1분이상 걸리던 수많은 Query를 1~5초내로 단축',
-        },
-        {
-          content:
-            '수만명의 테스트유저에게 푸시요청을 하면 서버가 뻗는 현상이 있어, 1000명씩 Chunk하여 전송시키도록 보완하여 서비스 안정화',
-        },
-        {
-          content:
-            'jQuery를 활용하여 Infinite Scroll 구현 및 Dom을 활용하여 페이지 새로고침 없이 페이지 전환',
-        },
-      ],
-    },
-    {
-      title: 'JWEntertainment',
+      title: 'RSTeam SI Project',
       startedAt: '2020-03',
-      endedAt: '2020-05',
+      endedAt: '2021-07',
       where: 'RS Team',
       descriptions: [
         {
-          content: '노래방 기계의 라이센스 판매하는 사이트, B2B 모델의 비공개사이트',
+          content: 'CICCommunity - 논란의 이슈 찬반 토론 커뮤니티',
         },
         {
-          content: 'PHP + CodeIgniter3 과 AdminLTE Bootstrap 템플릿을 활용하여 구현',
+          content: 'Smtech - 쇼핑몰 Inicis + IamPort 결제시스템 구축',
         },
         {
-          content: 'csv를 업로드시 Database 에 칼럼에 맞추어 비동기로 등록되는 기능 구현.',
+          content: 'InNest - 가상 센서 등을 활용한 관제 시뮬레이터',
+        },
+        {
+          content: 'Percommunity - 광고미션제공 및 보상 커뮤니티',
+        },
+        {
+          content: 'Cindymap - 마사지 예약 플랫폼',
+        },
+        {
+          content: 'JWEntertainment - B2B 모델의 노래방 기계의 라이센스 서비스',
         },
       ],
     },
