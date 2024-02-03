@@ -180,17 +180,11 @@ const project: IProject.Payload = {
       where: 'RS Team',
       descriptions: [
         {
-          content: 'RS Team SI 납품용 자체적인 CMS',
+          content: 'RS Team SI 납품용 자체적인 CMS 구현',
         },
         {
           content: '백엔드 프로젝트를 담당하였고, Nestjs + GraphQL 를 활용하여 제작',
         },
-        {
-          content: '추후에 MSA 전환을 고려하여 도메인별로 분리하여 구현',
-        },
-        // {
-        //   content: '회원, 게시판 등을 직접 구현하며 보안에 신경을 엄청 쓰는 경험',
-        // },
       ],
     },
     {
@@ -201,10 +195,7 @@ const project: IProject.Payload = {
       descriptions: [
         {
           content:
-            '가상 환경을 구성하여 가상 센서, 가상 액츄에이터를 생성하여 24시간 작동시키고, 수동 혹은 주기적으로 센싱값을 관제서버로 인터페이스에 맞추어 전송하는 시스템',
-        },
-        {
-          content: 'Nodejs + Graphql 를 활용하여 제작',
+            '가상 환경을 구성하여 가상 센서등 온라인에 생성하여 작동시키고, 주기적으로 센싱값을 관제서버로 전송하는 시스템',
         },
         {
           content: '공공데이터 API를 활용하여 가상환경 조성',
@@ -212,9 +203,6 @@ const project: IProject.Payload = {
         {
           content:
             '데이터베이스 요청량이 많아 속도가 느려지는 증상이 발생하여, 중복되는 요청을 최소화 하는 최적화를 통해 개선',
-        },
-        {
-          content: 'AWS Lightsail / RDS',
         },
       ],
     },
@@ -230,9 +218,6 @@ const project: IProject.Payload = {
         },
         {
           content: 'PHP + CodeIgniter3 + CIBoard(CMS) 를 활용하여 제작',
-        },
-        {
-          content: 'AWS Lightsail / RDS',
         },
       ],
     },
@@ -260,9 +245,6 @@ const project: IProject.Payload = {
           content:
             'jQuery를 활용하여 Infinite Scroll 구현 및 Dom을 활용하여 페이지 새로고침 없이 페이지 전환',
         },
-        {
-          content: 'AWS Lightsail / RDS',
-        },
       ],
     },
     {
@@ -276,9 +258,6 @@ const project: IProject.Payload = {
         },
         {
           content: 'PHP + CodeIgniter3 과 AdminLTE Bootstrap 템플릿을 활용하여 구현',
-        },
-        {
-          content: 'AWS Lightsail / RDS',
         },
         {
           content: 'csv를 업로드시 Database 에 칼럼에 맞추어 비동기로 등록되는 기능 구현.',
